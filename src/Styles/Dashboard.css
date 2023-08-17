@@ -1,0 +1,121 @@
+#section-align-with-sidebar{
+    width: 700px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+.section-two-topbar{
+    width: 76.4%;
+    min-height: 8vh;
+    max-height: 8vh;
+    position: absolute;
+    top: 0;
+    left: 10;
+     margin-left: -12px;
+    /* margin: 0 auto; */
+    background-color: rgb(255, 255, 255);
+}
+
+
+.top-navbar
+{
+
+    flex-direction: row;
+    justify-content:center;
+    align-items:center
+
+}
+
+
+#section-row{
+    margin: auto;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top:30px
+}
+
+
+#left-side-nav-div{
+    /* width: 100%; */
+}
+
+
+
+.left-side-nav{
+    height: 80vh;
+    width: 70px; 
+    padding: 8px; 
+    border-radius:8px;
+    background-color:#ffffff
+}
+
+.menu-block-side{
+    padding: 5px;
+}
+
+.menu-block-side:hover{
+    background-color: #E8F4FF;
+    height: 60px;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
+.menu-block-img{
+    width: 25px;
+    height: 25px;
+}
+.menu-block-para{
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+    margin-left: -4px;
+}
+
+
+.Profile-name-section{
+    margin-top: 30px;
+}
+
+.name{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+#count-section{
+    margin-top: 10px;
+}
+
+.count-section-head{
+    font-size: 22px;
+    font-weight: bold;
+}
+.count-section-para{
+    font-size: 12px;
+    margin-top: -8px;
+    color: #6b6b6b;
+}
+
+.filter-bars{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.placeholder-name{
+    font-size: 14px;
+    color: #b5b5b5;
+}
+
+
+.filter-down-fade path{
+     fill: aquamarine; 
+}
+
+
+
+svg:hover {
+    fill: red;
+  }
